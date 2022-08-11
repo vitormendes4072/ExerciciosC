@@ -4,6 +4,7 @@ void main() {
     int a, b;
     printf("Insira o primeiro número: \n");
     scanf("%i", &a);
+    printf("Insira o segundo número: \n");
     scanf("%i", &b);
     int adicao = a + b;
     int subtracao = a - b;
