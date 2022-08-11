@@ -1,0 +1,13 @@
+#include <stdio.h>
+//ex2
+void main() {
+    float a, b, c;
+    printf("Insira o primeiro número: \n");
+    scanf("%f", &a);
+    printf("Insira o segundo número: \n");
+    scanf("%f", &b);
+    printf("Insira o terceiro número: \n");
+    scanf("%f", &c);
+    float media = (a + b + c) / 3;
+    printf("Média = %f \n", media);
+}
